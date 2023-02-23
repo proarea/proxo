@@ -1,0 +1,75 @@
+{
+    "@@locale": "en",
+    "restart": "Restart",
+    "play": "Play",
+    "scoreBoard": "Score Board",
+    "settings": "Settings",
+    "about": "About App",
+    "exit": "Exit",
+    "back": "Back",
+    "inDevMessage": "At this very moment, a happy developer from Ukraine is trying to deliver this feature to you! ❤️",
+    "currentPlayer": "{player}'s turn!",
+    "@currentPlayer": {
+        "placeholders": {
+            "player":{
+                "type": "String"
+            }
+        }  
+    },
+    "playerWon": "{player} won!",
+    "@playerWon": {
+        "placeholders": {
+            "player":{
+                "type": "String"
+            }
+        }  
+    },
+    "draw": "It's a draw!",
+    "opponents": "⚔️ Opponents",
+    "humanHumanTitle": "Human vs Human",
+    "humanHumanDescription": "Play with your friend!",
+    "humanEasyBotTitle": "Human vs Easy Bot",
+    "humanEasyBotDescription": "Have fun eliminating the weak!",
+    "humanHardBotTitle": "Human vs Hard Bot",
+    "humanHardBotDescription": "Let us sweat!",
+    "easyBotsTitle": "Fight of Easy Bots",
+    "easyBotsDescription": "Cheer up, make bets and enjoy!",
+    "hardBotsTitle": "Fight of Hard Bots",
+    "hardBotsDescription": "Watch and envy!",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "cellNumberTitle": "Cell numbers",
+    "cellNumberDescription": "Display cell number on the board",
+
+    "appName": "App Name",
+    "appLaunchIcon": "Launch Icon",
+    "version": "Version",
+    "buildNumber": "Build Number",
+    "bundleId": "Bundle ID",
+    "company": "Company",
+    "proarea": "ProArea Digital Agency",
+    "viacheslav": "Viacheslav Sheviakov",
+    "leadDeveloper": "Lead Developer",
+    "boardMember": "Board Member",
+    "bogdan": "Bogdan Aksonenko",
+    "ceo": "CEO",
+    "polina": "Polina Belyaeva",
+    "translator": "Translator",
+    "accountManager": "Account Manager",
+    "qa": "QA",
+
+    "playerToCell": "{player} to {cell}",
+    "@playerToCell": {
+        "placeholders": {
+            "player": {
+                "type": "String"
+            },
+            "cell": {
+                "type": "int"
+            }
+        }  
+    },
+    "noTurnsYet": "No turns yet!"
+}
