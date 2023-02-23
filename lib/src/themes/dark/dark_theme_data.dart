@@ -7,8 +7,8 @@ final darkThemeData = ThemeData(
   backgroundColor: Colors.black26,
   cardColor: const Color.fromARGB(255, 59, 59, 59),
   textTheme: const TextTheme(
-    headline1: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
-    headline6: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
-    bodyText2: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
+    displayLarge: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
+    titleLarge: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
+    bodyMedium: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
   ),
 );

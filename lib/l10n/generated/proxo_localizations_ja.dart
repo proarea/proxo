@@ -1,6 +1,3 @@
-
-
-
 import 'proxo_localizations.dart';
 
 /// The translations for Japanese (`ja`).

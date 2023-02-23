@@ -1,4 +1,3 @@
-
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
@@ -16,14 +15,14 @@ import 'proxo_localizations_ru.dart';
 import 'proxo_localizations_tr.dart';
 import 'proxo_localizations_uk.dart';
 
-/// Callers can lookup localized strings with an instance of ProxoLocalizations returned
-/// by `ProxoLocalizations.of(context)`.
+/// Callers can lookup localized strings with an instance of ProxoLocalizations
+/// returned by `ProxoLocalizations.of(context)`.
 ///
 /// Applications need to include `ProxoLocalizations.delegate()` in their app's
-/// localizationDelegates list, and the locales they support in the app's
-/// supportedLocales list. For example:
+/// `localizationDelegates` list, and the locales they support in the app's
+/// `supportedLocales` list. For example:
 ///
-/// ```
+/// ```dart
 /// import 'generated/proxo_localizations.dart';
 ///
 /// return MaterialApp(
@@ -38,14 +37,14 @@ import 'proxo_localizations_uk.dart';
 /// Please make sure to update your pubspec.yaml to include the following
 /// packages:
 ///
-/// ```
+/// ```yaml
 /// dependencies:
 ///   # Internationalization support.
 ///   flutter_localizations:
 ///     sdk: flutter
 ///   intl: any # Use the pinned version from flutter_localizations
 ///
-///   # rest of dependencies
+///   # Rest of dependencies
 /// ```
 ///
 /// ## iOS Applications

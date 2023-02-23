@@ -57,7 +57,7 @@ class ProxoTile extends StatelessWidget {
           title: AutoSizeText(
             title,
             group: overrideTitleGroup ?? titleGroup,
-            style: Theme.of(context).textTheme.headline5,
+            style: Theme.of(context).textTheme.headlineSmall,
             minFontSize: 16,
             maxFontSize: 20,
             maxLines: 1,

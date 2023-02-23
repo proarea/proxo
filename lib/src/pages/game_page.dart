@@ -106,7 +106,7 @@ class _GamePageState extends State<GamePage> {
     final shouldDrawHistory = state.history.turns.isNotEmpty;
 
     final controller = ScrollController();
-    WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       if (!controller.hasClients) return;
       controller.animateTo(
         controller.position.maxScrollExtent,
@@ -151,7 +151,7 @@ class _GamePageState extends State<GamePage> {
       alignment: Alignment.center,
       child: AutoSizeText(
         '- $text -',
-        style: Theme.of(context).textTheme.headline4,
+        style: Theme.of(context).textTheme.headlineMedium,
         maxLines: 1,
       ),
     );

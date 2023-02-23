@@ -43,7 +43,7 @@ class ProxoSimpleAppBar extends StatelessWidget {
             children: [
               AutoSizeText(
                 title,
-                style: textTheme.headline5,
+                style: textTheme.headlineSmall,
                 minFontSize: 14,
                 maxLines: 1,
               ),

@@ -50,7 +50,7 @@ class InDevelopmentPage extends StatelessWidget {
         padding: const EdgeInsets.all(24),
         child: Text(
           ProxoLocalizations.of(context)!.inDevMessage,
-          style: textTheme.headline5,
+          style: textTheme.headlineSmall,
         ),
       ),
       const Spacer(),

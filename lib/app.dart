@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'l10n/generated/proxo_localizations.dart';
 import 'routes.dart';
@@ -19,23 +18,8 @@ class App extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           theme: state.settings.theme.themeData,
           scrollBehavior: NoGlowScrollBehaviour(),
-          localizationsDelegates: const [
-            ProxoLocalizations.delegate,
-            GlobalMaterialLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate,
-            GlobalCupertinoLocalizations.delegate,
-          ],
-          supportedLocales: const [
-            Locale('en'),
-            Locale('uk'),
-            Locale('ja'),
-            Locale('pl'),
-            Locale('fr'),
-            Locale('tr'),
-            Locale('es'),
-            Locale('it'),
-            Locale('ru'),
-          ],
+          localizationsDelegates: ProxoLocalizations.localizationsDelegates,
+          supportedLocales: ProxoLocalizations.supportedLocales,
           locale: Locale(state.settings.languageCode),
           initialRoute: ProxoRoutes.splash,
           onGenerateRoute: onGenerateRoute,
