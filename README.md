@@ -10,7 +10,7 @@ It follows corporate guidelines and contains the least amount of bugs.
 
 Most of the screens are responsive and adapt to both portrait and landscape orientation.
 
-The app supports four languages:
+The app supports the following languages:
 - English
 - Ukrainian
 - Japanese
